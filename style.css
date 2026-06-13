@@ -1,0 +1,77 @@
+body {
+    background-color: hsl(47, 88%, 63%);
+    font-family: 'Figtree', sans-serif;
+    font-size: 16px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    margin: auto auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 22%;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    border: 1px solid hsl(0, 0%, 0%);
+    box-shadow: 8px 9px 0px black;
+}
+
+#article-illustration{
+    margin: auto;
+    width: 88%;
+    margin-top: 6%;
+    border-radius: 14px;
+}
+
+.box{
+    display: inline-block;
+    width: max-content;
+    background-color: hsl(47, 88%, 63%);
+    margin-left: 6%;
+    margin-top: 5%;
+    border-radius: 6px;
+    text-align: center;
+}
+
+#article {
+    margin: 6% 6%;
+    color: hsl(0, 0%, 42%);
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin-top: 0%;
+}
+
+#article-category{
+    font-size: 13px;
+    font-weight: 800;
+    margin : 0;
+    padding: 6px 18px;
+}
+
+#author{
+    display: flex;
+    align-items: center;
+    margin-left: 6%;
+    margin-top: 2%;
+    margin-bottom: 6%;
+    color: hsl(0, 0%, 0%);
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    align-items: center;
+    white-space: nowrap;
+}
+
+#author::before{
+    display: inline-block;
+    content: '';
+    background-image: url('./Images/image-avatar.webp');
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    white-space: nowrap;
+    margin-right: 20px;
+    width: 2vw;
+    aspect-ratio: 1/1;
+    flex-shrink: 0;
+}
